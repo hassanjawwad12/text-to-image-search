@@ -1,5 +1,5 @@
 import streamlit as st
-from multimodal_search import MultimodalSearch
+from multimodal_search import MultiModalSearch
 
 # Set the page config
 st.set_page_config(
@@ -13,7 +13,7 @@ def main():
     st.markdown("<h1 style='text-align: center; color: green;'>Fashion Cloth Search App</h1>", unsafe_allow_html=True)
 
     # Initialized multimodal search
-    multimodal_search = MultimodalSearch()
+    multimodal_search = MultiModalSearch()
 
     # prompt user for entering query
     query = st.text_input("Enter your query:")
