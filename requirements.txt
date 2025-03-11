@@ -5,3 +5,7 @@ fastapi
 uvicorn 
 python-multipart 
 jinja2
+torch
+torchvision
+torchaudio 
+setuptools
